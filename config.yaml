@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (1aec2142c70a8f7d)
+project:
+  name: base-indexer-open-source-thtn
+  tag: 1aec2142c70a8f7d
+  env: production
+cfg_orbittba619:
+  enabled: true
+  workers: 8
+cfg_fluxhldevg:
+  timeout_sec: 36
+  retry: 1
+cfg_vectornqm9dm:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
